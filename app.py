@@ -56,7 +56,8 @@ class DocumentStore:
                 port=redis_port,
                 password=redis_password,
                 decode_responses=False, # Handle binary embedding data
-                socket_keepalive=True
+                socket_keepalive=True,
+                ssl=True,
             )
             self.redis_client.ping()
             print("DocumentStore: Connected to Redis successfully!")
@@ -148,7 +149,8 @@ class SemanticCache:
                 port=redis_port,
                 password=redis_password,
                 decode_responses=False,
-                socket_keepalive=True
+                socket_keepalive=True,
+                ssl=True,
             )
             self.redis_client.ping()
             print("SemanticCache: Connected to Redis successfully!")
