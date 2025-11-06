@@ -1,11 +1,5 @@
 streamlit
-requests
-pandas
-plotly
-fastapi
-uvicorn[standard]
-redis
-sentence-transformers
+redis>=4.0
 numpy
-prometheus-client
+sentence-transformers
 openai
