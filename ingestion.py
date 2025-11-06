@@ -50,7 +50,8 @@ class DocumentStore:
                 port=redis_port,
                 password=redis_password,
                 decode_responses=False,
-                socket_keepalive=True
+                socket_keepalive=True,
+                ssl=True,
             )
             self.redis_client.ping()
             print("DocumentStore: Connected to Redis successfully!")
