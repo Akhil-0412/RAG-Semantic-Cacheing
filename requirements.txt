@@ -1,5 +1,5 @@
-streamlit
-redis>=4.0
-numpy
-sentence-transformers
-openai
+streamlit>=1.35
+redis>=5.0.0
+numpy>=1.24
+sentence-transformers==2.6.1
+openai==0.28.1   # keeps ChatCompletion.create working
