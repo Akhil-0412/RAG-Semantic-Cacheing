@@ -2,9 +2,9 @@
 # Authoritative RAG: Caching & Fact-Checking App
 #
 # This single file contains the full application:
-# 1. Streamlit Frontend (this is the website)
-# 2. RAG Orchestration (replaces rag_with_cache.py)
-# 3. All helper classes (replaces document_store.py, etc.)
+# 1. Streamlit Frontend 
+# 2. RAG Orchestration 
+# 3. All helper classes 
 #
 # To deploy, this file will be run by Streamlit Community Cloud.
 # -----------------------------------------------------------------
