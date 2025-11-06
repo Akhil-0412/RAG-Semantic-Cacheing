@@ -23,9 +23,9 @@ from typing import List, Dict, Optional
 from redis.commands.search.field import (
     TextField, VectorField, NumericField, TagField
 )
-from redis.commands.search.indexDefinition import (
-    IndexDefinition, IndexType
-)
+# from redis.commands.search.indexDefinition import (
+#     IndexDefinition, IndexType
+# )
 # Redis Search imports (v4/v5 compatible)
 from redis.commands.search.field import TextField, VectorField, NumericField, TagField
 try:
