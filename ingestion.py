@@ -24,6 +24,15 @@ from redis.commands.search.field import (
 from redis.commands.search.indexDefinition import (
     IndexDefinition, IndexType
 )
+# Redis Search imports (v4/v5 compatible)
+from redis.commands.search.field import TextField, VectorField, NumericField, TagField
+try:
+    # redis-py <= 4.x
+    from redis.commands.search.indexDefinition import IndexDefinition, IndexType
+except ModuleNotFoundError:
+    # redis-py >= 5.x
+    from redis.commands.search.index_definition import IndexDefinition, IndexType
+from redis.commands.search.query import Query
 
 # --- Copied DocumentStore Class ---
 # We must include the class definition in this script
