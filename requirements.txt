@@ -1,0 +1,11 @@
+streamlit
+requests
+pandas
+plotly
+fastapi
+uvicorn[standard]
+redis
+sentence-transformers
+numpy
+prometheus-client
+openai

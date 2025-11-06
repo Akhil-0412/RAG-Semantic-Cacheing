@@ -1,0 +1,23 @@
+Byte-compiled / optimized files
+
+pycache/
+*.py[cod]
+*$py.class
+
+Virtual environment
+
+venv/
+.venv/
+
+Environment variables
+
+.env
+
+Streamlit
+
+.streamlit/
+
+IDE / OS
+
+.vscode/
+.DS_Store
